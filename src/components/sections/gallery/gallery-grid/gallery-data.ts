@@ -1,5 +1,18 @@
 import { Heart, Search, Sparkles } from "lucide-react";
 
+export type GalleryRatio = "auto" | "portrait" | "square" | "video";
+
+export interface GalleryItem {
+  image: string;
+  title: string;
+  category: string;
+  ratio: GalleryRatio;
+  rotate?: "left" | "right";
+  icon?: React.ComponentType<{
+    className?: string;
+  }>;
+}
+
 export const gallery = [
   {
     title: "Morning Sensorial Play",

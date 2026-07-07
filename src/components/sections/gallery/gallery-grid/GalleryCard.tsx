@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import type { GalleryItem } from "./gallery-data";
 
 type Props = {
-  item: any;
+  item: GalleryItem;
   index: number;
 };
 
@@ -67,7 +68,7 @@ export default function GalleryCard({ item, index }: Props) {
             relative
             overflow-hidden
             rounded-2xl
-            ${aspect[item.ratio]}
+            ${aspect[item.ratio as keyof typeof aspect]}
           `}
         >
           <Image

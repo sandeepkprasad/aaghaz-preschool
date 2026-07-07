@@ -5,7 +5,12 @@ import { usePathname } from "next/navigation";
 import { Menu, Phone, MapPin, Globe, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/Sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetClose,
+} from "@/components/ui/Sheet";
 
 import { NAVIGATION } from "@/constants/navigation";
 import EnrollButton from "./EnrollButton";
@@ -38,33 +43,38 @@ export default function MobileNav() {
 
             <nav className="space-y-4">
               {NAVIGATION.map((item, index) => (
-                <MotionLink
-                  key={item.href}
-                  href={item.href}
-                  initial={{
-                    opacity: 0,
-                    x: 25,
-                  }}
-                  animate={{
-                    opacity: 1,
-                    x: 0,
-                  }}
-                  transition={{
-                    delay: index * 0.08,
-                  }}
-                  className={`block rounded-lg px-3 py-3 text-lg font-semibold transition-all ${
-                    pathname === item.href
-                      ? "bg-orange-50 text-orange-600"
-                      : "text-slate-700 hover:bg-slate-100"
-                  }`}
-                >
-                  {item.label}
-                </MotionLink>
+                <SheetClose asChild key={item.href}>
+                  <MotionLink
+                    href={item.href}
+                    initial={{
+                      opacity: 0,
+                      x: 25,
+                    }}
+                    animate={{
+                      opacity: 1,
+                      x: 0,
+                    }}
+                    transition={{
+                      delay: index * 0.08,
+                    }}
+                    className={`block rounded-lg px-3 py-3 text-lg font-semibold transition-all ${
+                      pathname === item.href
+                        ? "bg-orange-50 text-orange-600"
+                        : "text-slate-700 hover:bg-slate-100"
+                    }`}
+                  >
+                    {item.label}
+                  </MotionLink>
+                </SheetClose>
               ))}
             </nav>
 
             <div className="mt-8">
-              <EnrollButton />
+              <SheetClose asChild>
+                <div>
+                  <EnrollButton />
+                </div>
+              </SheetClose>
             </div>
           </div>
 

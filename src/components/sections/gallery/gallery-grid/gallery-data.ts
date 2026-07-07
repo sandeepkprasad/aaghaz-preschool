@@ -13,7 +13,7 @@ export interface GalleryItem {
   }>;
 }
 
-export const gallery = [
+export const gallery: GalleryItem[] = [
   {
     title: "Morning Sensorial Play",
     category: "Classroom",

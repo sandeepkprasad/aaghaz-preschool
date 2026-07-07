@@ -1,6 +1,31 @@
 import { Phone, MapPin, Trophy, Camera, Mail } from "lucide-react";
 
-export const contactCards = [
+import type { LucideIcon } from "lucide-react";
+
+export type ContactColor = "orange" | "emerald";
+
+export interface ContactCardItem {
+  icon: LucideIcon;
+
+  title: string;
+
+  color: ContactColor;
+
+  lines: string[];
+
+  action?: {
+    label: string;
+    href: string;
+  };
+}
+
+export interface SocialLinkItem {
+  icon: LucideIcon;
+
+  href: string;
+}
+
+export const contactCards: ContactCardItem[] = [
   {
     icon: Phone,
 
@@ -26,17 +51,14 @@ export const contactCards = [
 
     lines: [
       "123 Sunshine Lane",
-
       "Blossom Gardens",
-
       "Knowledge Park",
-
       "Bangalore - 560001",
     ],
   },
 ];
 
-export const socialLinks = [
+export const socialLinks: SocialLinkItem[] = [
   {
     icon: Trophy,
 

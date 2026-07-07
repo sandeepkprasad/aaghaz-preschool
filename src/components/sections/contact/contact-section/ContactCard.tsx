@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import type { ContactCardItem } from "./contact-data";
 
 type Props = {
-  item: any;
+  item: ContactCardItem;
 };
 
 export default function ContactCard({ item }: Props) {

@@ -5,7 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-
   --primary: #8e4e14;
   --secondary: #0c6b4f;
   --accent: #ddae3f;
@@ -130,7 +129,6 @@ html {
 }
 
 .dark {
-
   --background: oklch(0.145 0 0);
 
   --foreground: oklch(0.985 0 0);
@@ -242,4 +240,53 @@ html {
 
 .scrapbook-rotate-right {
   transform: rotate(2deg);
+}
+
+.scrapbook-right {
+  rotate: 3deg;
+  border: 8px solid white;
+  border-radius: 40px;
+  box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.18),
+    0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.scrapbook-left {
+  rotate: -3deg;
+  border: 8px solid white;
+  border-radius: 40px;
+  box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.18),
+    0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.scrapbook-left:hover,
+.scrapbook-right:hover {
+  transform: rotate(0deg);
+}
+
+.organic-blob {
+  border-radius: 60% 40% 45% 55% / 50% 60% 40% 50%;
+}
+
+.organic-shape {
+  border-radius: 55% 45% 60% 40% / 45% 60% 40% 55%;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: floating 6s ease-in-out infinite;
 }

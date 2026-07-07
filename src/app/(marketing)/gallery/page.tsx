@@ -1,5 +1,15 @@
-const page = () => {
-  return <div>page</div>;
-};
+import Hero from "@/components/sections/gallery/hero";
+import GalleryFilter from "@/components/sections/gallery/gallery-filter";
+import GalleryGrid from "@/components/sections/gallery/gallery-grid";
+import GalleryCTA from "@/components/sections/gallery/final-cta";
 
-export default page;
+export default function GalleryPage() {
+  return (
+    <>
+      <Hero />
+      <GalleryFilter />
+      <GalleryGrid />
+      <GalleryCTA />
+    </>
+  );
+}

@@ -6,11 +6,11 @@ export const stats = [
     title: "Creative Activities",
     color: "text-orange-500",
   },
-  {
+  /** {
     number: "750+",
     title: "Thriving Minds",
     color: "text-emerald-500",
-  },
+  }, */
   {
     number: "12+",
     title: "Montessori Guides",

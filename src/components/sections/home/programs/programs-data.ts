@@ -2,6 +2,7 @@ import { Baby, School, Lightbulb } from "lucide-react";
 
 export const programs = [
   {
+    heading: "PLAY GROUP",
     title: "Little Explorers",
     age: "1.5 - 2.5 Yrs",
     description:
@@ -13,8 +14,9 @@ export const programs = [
     hover: "hover:bg-emerald-600",
   },
   {
+    heading: "NURSERY",
     title: "Preschool Path",
-    age: "2.5 - 4.5 Yrs",
+    age: "2.5 - 3.5 Yrs",
     description:
       "Building social bridges and academic foundations through hands-on Montessori activities.",
     icon: School,
@@ -25,8 +27,9 @@ export const programs = [
     featured: true,
   },
   {
+    heading: "LKG/UKG",
     title: "Bright Futures",
-    age: "4.5 - 6 Yrs",
+    age: "3.5 - 5 Yrs",
     description:
       "Preparing children for the transition to primary school with confidence and creativity.",
     icon: Lightbulb,

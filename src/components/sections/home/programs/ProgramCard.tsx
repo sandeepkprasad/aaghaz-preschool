@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+//import { ArrowRight } from "lucide-react";
 
 type Props = {
   program: any;
@@ -67,18 +67,21 @@ export default function ProgramCard({ program, index }: Props) {
         </span>
       </div>
 
+      <span className="tracking-[0.25em] uppercase text-sm font-semibold text-emerald-700">
+        {program.heading}
+      </span>
       <h3 className="mb-4 text-2xl font-bold text-slate-900">
         {program.title}
       </h3>
 
       <p className="mb-10 leading-8 text-slate-600">{program.description}</p>
 
-      <button
+      {/* <button
         className={`flex w-full items-center justify-center gap-2 rounded-2xl bg-white py-4 font-semibold transition-all duration-500 hover:scale-[1.03] hover:text-white shadow-md ${program.button} ${program.hover}`}
       >
         Details
         <ArrowRight size={18} />
-      </button>
+      </button> */}
     </motion.div>
   );
 }

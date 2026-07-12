@@ -59,7 +59,7 @@ export default function HeroImages() {
         "
       >
         <Image
-          src="/images/hero/children.jpg"
+          src="/images/home/playing.png"
           alt="Children Playing"
           fill
           priority
@@ -93,7 +93,7 @@ export default function HeroImages() {
         "
       >
         <Image
-          src="/images/hero/painting.jpg"
+          src="/images/home/children.png"
           alt="Creative Learning"
           fill
           className="object-cover"

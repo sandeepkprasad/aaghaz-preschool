@@ -49,7 +49,7 @@ export default function AboutImage() {
         className="relative h-[420px] w-[420px]"
       >
         <Image
-          src="/images/about/montessori.jpg"
+          src="/images/home/about.png"
           alt="Montessori Learning"
           fill
           priority

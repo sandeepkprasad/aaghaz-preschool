@@ -1,23 +1,19 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link
-      href="/"
-      className="inline-flex items-center gap-2"
-      aria-label="Aaghaz Preschool"
-    >
-      <div className="flex flex-col">
-        <span className="text-2xl font-bold tracking-tight text-orange-600">
-          Aaghaz
-        </span>
-
-        <span className="-mt-1 text-xs font-medium uppercase tracking-[0.35em] text-slate-500">
-          Preschool
-        </span>
-      </div>
+    <Link href="/" aria-label="Aaghaz Preschool" className="flex items-center">
+      <Image
+        src="/logo/logo.png"
+        alt="Aaghaz Preschool Logo"
+        width={160}
+        height={160}
+        priority
+        className="h-16 w-auto object-contain"
+      />
     </Link>
   );
 }

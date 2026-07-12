@@ -2,13 +2,13 @@
 
 import { motion } from "framer-motion";
 
-import HeroBadge from "./HeroBadge";
+//import HeroBadge from "./HeroBadge";
 import HeroButtons from "./HeroButtons";
 
 export default function HeroContent() {
   return (
     <div className="space-y-8">
-      <HeroBadge />
+      {/* <HeroBadge /> */}
 
       <motion.h1
         initial={{ opacity: 0, y: 35 }}
@@ -25,11 +25,11 @@ export default function HeroContent() {
           lg:text-7xl
         "
       >
-        Where Learning
+        Ilm Ki Pehli
         <br />
-        <span className="italic text-emerald-600">Meets Growth</span>
-        <br />
-        &amp; Care
+        <span className="italic text-emerald-600">Seedhi</span>
+        {/* <br />
+        &amp; Care */}
       </motion.h1>
 
       <motion.p

@@ -4,7 +4,7 @@ export const visionMission = [
   {
     title: "Our Vision",
     description:
-      "To be the sanctuary where children develop a lifelong love for learning, blossoming into empathetic, confident, and globally-conscious citizens of tomorrow.",
+      "To provide learners with an enriching environment in which creativity, out of the box thinking, discovery and experimentation are emphasized. To inspire children to achieve their best through collaborative learning in a safe and enjoyable learning environment. To help children reach their full potential, both academically and in preparation for life, through experiential and activity based learnings. To prepare confident and passionate learners who uphold the values of honesty, high moral standards, integrity, and empathy.",
 
     icon: Lightbulb,
     decoration: Sparkles,
@@ -26,7 +26,7 @@ export const visionMission = [
     title: "Our Mission",
 
     description:
-      "We provide a prepared environment that honors the Montessori method, focusing on holistic development through self-directed activity, hands-on learning, and collaborative play.",
+      "To build an outstanding early childhood learning community that will develop curiosity, creativity, confidence, compassion, and collaboration, and will help children become life-long learners.",
 
     icon: Rocket,
 

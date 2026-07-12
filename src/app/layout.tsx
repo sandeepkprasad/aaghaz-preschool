@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aaghaz Preschool | Nurturing Young Minds",
+  title: "Aaghaz Preschool | Ism Ki Pehli Seedhi",
   description:
     "A nurturing Montessori preschool focused on creativity, learning and growth.",
 };

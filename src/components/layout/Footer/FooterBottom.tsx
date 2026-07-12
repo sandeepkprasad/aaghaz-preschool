@@ -28,7 +28,7 @@ export default function FooterBottom() {
           flex
           flex-col
           items-center
-          justify-between
+          justify-center
           gap-6
           text-center
           lg:flex-row
@@ -36,11 +36,10 @@ export default function FooterBottom() {
         "
       >
         <p className="text-sm text-slate-700">
-          © {new Date().getFullYear()} Aaghaz Preschool. Nurturing Young Minds
-          with Love.
+          © {new Date().getFullYear()} Aaghaz Preschool. Ilm Ki Pehli Seedhi.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        {/* <div className="flex flex-wrap justify-center gap-6">
           {footerBottomLinks.map((item) => (
             <Link
               key={item.href}
@@ -57,7 +56,7 @@ export default function FooterBottom() {
               {item.title}
             </Link>
           ))}
-        </div>
+        </div> */}
       </motion.div>
     </>
   );

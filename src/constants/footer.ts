@@ -23,9 +23,13 @@ export const preschoolInfo = {
   description:
     "A premier Montessori destination where children lead their own adventure in learning and growth.",
 
-  address: ["123 Montessori Way", "Nurture Valley", "Edu-State 56001"],
+  address: [
+    "F3, Ground Floor, Jogabai Extension,",
+    "Batla House, Okhla,",
+    "New Delhi, Delhi, 110025",
+  ],
 
-  phone: "+1 (555) 000-GROW",
+  phone: "+91 96678 65010",
 };
 
 export const footerBottomLinks = [

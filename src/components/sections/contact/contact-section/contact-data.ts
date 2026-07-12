@@ -33,12 +33,12 @@ export const contactCards: ContactCardItem[] = [
 
     color: "orange",
 
-    lines: ["+91 98765 43210 (Admissions)", "+91 98765 43211 (Office)"],
+    lines: ["+91 96678 65010"],
 
     action: {
       label: "Chat on WhatsApp",
 
-      href: "https://wa.me/919876543210",
+      href: "https://wa.me/919667865010",
     },
   },
 
@@ -50,10 +50,9 @@ export const contactCards: ContactCardItem[] = [
     color: "emerald",
 
     lines: [
-      "123 Sunshine Lane",
-      "Blossom Gardens",
-      "Knowledge Park",
-      "Bangalore - 560001",
+      "F3, Ground Floor, Jogabai Extension,",
+      "Batla House, Okhla,",
+      "New Delhi, Delhi, 110025",
     ],
   },
 ];

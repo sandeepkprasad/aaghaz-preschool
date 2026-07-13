@@ -23,7 +23,7 @@ export default function EnrollButton() {
         items-center
         gap-2
         rounded-full
-        bg-orange-500
+        bg-[#EC2129]
         px-6
         py-3
         text-sm
@@ -32,7 +32,7 @@ export default function EnrollButton() {
         shadow-md
         transition-colors
         duration-300
-        hover:bg-orange-600
+        hover:bg-[#EC2129]
         hover:shadow-xl
       "
     >

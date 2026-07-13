@@ -1,27 +1,27 @@
 export const galleryImages = [
   {
-    image: "/images/gallery/gallery-1.jpg",
+    image: "/images/gallery/classroom.png",
     rotation: "-rotate-2",
-    alt: "Children Playing",
+    alt: "Classroom",
   },
   {
-    image: "/images/gallery/gallery-2.jpg",
+    image: "/images/gallery/classroom_activity.png",
     rotation: "rotate-2",
-    alt: "Outdoor Learning",
+    alt: "Classroom Activity",
   },
   {
-    image: "/images/gallery/gallery-3.jpg",
+    image: "/images/gallery/learning.png",
     rotation: "",
-    alt: "Painting",
+    alt: "Learning",
   },
   {
-    image: "/images/gallery/gallery-4.jpg",
+    image: "/images/gallery/activity.png",
     rotation: "-rotate-2",
-    alt: "Story Time",
+    alt: "Activity",
   },
   {
-    image: "/images/gallery/gallery-5.jpg",
+    image: "/images/gallery/aaghaz_side_1.png",
     rotation: "rotate-2",
-    alt: "Montessori Activity",
+    alt: "Aaghaz",
   },
 ];

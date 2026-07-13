@@ -64,7 +64,7 @@ export default function Stats() {
             grid-cols-2
             gap-10
             text-center
-            lg:grid-cols-4
+            lg:grid-cols-3
           "
         >
           {stats.map((stat, index) => (

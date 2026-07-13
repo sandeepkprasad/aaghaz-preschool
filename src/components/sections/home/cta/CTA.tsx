@@ -26,7 +26,7 @@ export default function CTA() {
             relative
             overflow-hidden
             rounded-[60px]
-            bg-[#8D4B17]
+            bg-[#0F587F]
             px-8
             py-16
             text-center

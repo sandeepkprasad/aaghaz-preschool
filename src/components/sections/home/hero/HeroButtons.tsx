@@ -26,7 +26,7 @@ export default function HeroButtons() {
           items-center
           gap-2
           rounded-full
-          bg-orange-500
+          bg-[#EC2129]
           px-8
           py-4
           font-semibold

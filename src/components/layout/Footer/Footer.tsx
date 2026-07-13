@@ -13,7 +13,7 @@ export default function Footer() {
       className="
         mt-32
         rounded-t-[100px]
-        bg-[#9df0cc]
+        bg-[#DAF1F9]
         px-6
         py-24
       "

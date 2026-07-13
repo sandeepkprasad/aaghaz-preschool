@@ -18,7 +18,7 @@ export default function CTAButtons() {
           items-center
           gap-2
           rounded-full
-          bg-orange-600
+          bg-[#EC2129]
           px-10
           py-4
           font-semibold

@@ -142,7 +142,7 @@ export default function ProgramFeatureCard({ item }: Props) {
           mt-8
           w-full
           rounded-2xl
-          bg-orange-600
+          bg-[#EC2129]
           py-3
           font-semibold
           text-white

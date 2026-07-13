@@ -16,7 +16,7 @@ export default function HomePage() {
       <Stats />
       <Journey />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CTA />
     </>
   );

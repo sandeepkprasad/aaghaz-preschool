@@ -23,7 +23,7 @@ export default function CTAButtons() {
           px-10
           py-4
           font-semibold
-          text-orange-600
+          text-[#EC2129]
           shadow-xl
         "
       >

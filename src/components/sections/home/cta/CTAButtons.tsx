@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+//import { ArrowRight } from "lucide-react";
 
 const MotionLink = motion.create(Link);
 
 export default function CTAButtons() {
   return (
     <div className="flex flex-col justify-center gap-5 sm:flex-row">
-      <MotionLink
+      {/* <MotionLink
         href="/contact"
         whileHover={{
           scale: 1.05,
@@ -35,7 +35,7 @@ export default function CTAButtons() {
       >
         Schedule a Tour
         <ArrowRight size={20} />
-      </MotionLink>
+      </MotionLink> */}
 
       <MotionLink
         href="/admissions"

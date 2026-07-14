@@ -6,7 +6,7 @@ import CTA from "@/components/sections/programs/cta";
 export default function ProgramsPage() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <ProgramCards />
       <MontessoriEdge />
       <CTA />

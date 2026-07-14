@@ -24,15 +24,13 @@ export default function FounderImage() {
         "
       >
         <Image
-          src="/images/about/founder.jpg"
-          alt="Founder"
+          src="/images/about/founder_note.png"
+          alt="Founder's Note"
           width={600}
           height={750}
-          className="
-            aspect-[4/5]
-            w-full
-            object-cover
-          "
+          priority
+          sizes="(max-width: 768px) 100vw, 600px"
+          className="aspect-[4/5] w-full object-cover"
         />
       </motion.div>
 

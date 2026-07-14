@@ -32,7 +32,7 @@ export const visionMission = [
 
     decoration: Users,
 
-    background: "bg-orange-600",
+    background: "bg-[#EC2129]",
 
     text: "text-white",
 

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Download } from "lucide-react";
+//import { ArrowRight, Download } from "lucide-react";
 
 const MotionLink = motion.create(Link);
 
@@ -11,29 +11,30 @@ export default function CTAButtons() {
     <div className="flex flex-col justify-center gap-5 md:flex-row">
       <MotionLink
         href="/contact"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.98 }}
+        whileHover={{
+          scale: 1.05,
+        }}
+        whileTap={{
+          scale: 0.98,
+        }}
         className="
-          inline-flex
-          items-center
-          justify-center
-          gap-2
           rounded-full
-          bg-white
+          border-2
+          border-white/40
           px-10
           py-4
           text-lg
           font-semibold
-          text-orange-700
-          shadow-xl
+          text-white
+          backdrop-blur
           transition-all
+          hover:bg-white/10
         "
       >
-        Schedule a Campus Tour
-        <ArrowRight size={20} />
+        Connect With Us
       </MotionLink>
 
-      <MotionLink
+      {/* <MotionLink
         href="/brochure.pdf"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.98 }}
@@ -56,7 +57,7 @@ export default function CTAButtons() {
       >
         <Download size={20} />
         Download Brochure
-      </MotionLink>
+      </MotionLink> */}
     </div>
   );
 }

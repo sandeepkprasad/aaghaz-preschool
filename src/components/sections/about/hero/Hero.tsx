@@ -5,7 +5,7 @@ import HeroImage from "./HeroImage";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-6 py-28 lg:px-12">
+    <section className="relative overflow-hidden bg-[#DAF1F9] px-6 py-28 lg:px-12">
       {/* Background Blur */}
 
       <div
@@ -16,7 +16,7 @@ export default function Hero() {
           h-[500px]
           w-[500px]
           rounded-full
-          bg-orange-100/40
+          bg-[#DAF1F9]
           blur-3xl
         "
       />

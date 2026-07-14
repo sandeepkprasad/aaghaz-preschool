@@ -74,10 +74,11 @@ before:ring-black/5
 "
       >
         <Image
-          src="/images/about/about-hero.jpg"
+          src="/images/about/montessori_classroom.png"
           alt="Montessori Classroom"
           fill
           priority
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover"
         />
       </motion.div>

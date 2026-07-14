@@ -38,7 +38,7 @@ export default function HeroButtons() {
         <ArrowRight size={18} />
       </MotionLink>
 
-      <MotionLink
+      {/* <MotionLink
         href="/about"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.97 }}
@@ -53,7 +53,7 @@ export default function HeroButtons() {
         "
       >
         Our Method
-      </MotionLink>
+      </MotionLink> */}
     </motion.div>
   );
 }

@@ -27,7 +27,7 @@ export default function CTA() {
             relative
             overflow-hidden
             rounded-[80px]
-            bg-orange-700
+            bg-[#0F587F]
             px-8
             py-16
             text-center
@@ -71,7 +71,6 @@ export default function CTA() {
               h-96
               w-96
               rounded-full
-              bg-orange-400/20
               blur-3xl
             "
           />

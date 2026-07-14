@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 //import HeroBadge from "./HeroBadge";
 import HeroButtons from "./HeroButtons";
@@ -10,7 +11,7 @@ export default function HeroContent() {
     <div className="space-y-8">
       {/* <HeroBadge /> */}
 
-      <motion.h1
+      {/* <motion.h1
         initial={{ opacity: 0, y: 35 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -28,8 +29,32 @@ export default function HeroContent() {
         Ilm Ki Pehli
         <br />
         <span className="italic text-emerald-600">Seedhi</span>
-        {/* <br />
-        &amp; Care */}
+        <br />
+        &amp; Care
+      </motion.h1> */}
+
+      <motion.h1
+        initial={{
+          opacity: 0,
+          y: 25,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          delay: 0.2,
+        }}
+        className="flex justify-center lg:justify-start"
+      >
+        <Image
+          src="/images/common/aaghaz_text.png"
+          alt="Aaghaz Preschool"
+          width={700}
+          height={180}
+          priority
+          className="h-auto w-full max-w-[650px]"
+        />
       </motion.h1>
 
       <motion.p

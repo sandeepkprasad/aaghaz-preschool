@@ -20,7 +20,7 @@ export const features = [
   {
     title: "Organic & Natural",
     description:
-      "We prioritize natural materials over plastic, promoting a grounding and toxin-free environment.",
+      "Our thoughtfully designed spaces feature natural materials that inspire exploration while fostering a healthy, grounded, and toxin-free learning environment.",
     icon: Leaf,
     bg: "bg-emerald-600",
     color: "text-white",

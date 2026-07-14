@@ -26,18 +26,24 @@ export default function EnvironmentImages() {
           rotate: -2,
         }}
         className="
-          relative
-          aspect-square
-          overflow-hidden
-          rounded-[40px]
-          shadow-xl
-        "
+    relative
+    aspect-square
+    overflow-hidden
+    rounded-[40px]
+    shadow-xl
+  "
       >
-        <Image
-          src="/images/about/environment-1.jpg"
-          alt="Reading Corner"
-          fill
-          className="object-cover"
+        <video
+          src="/images/about/cctv_video.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="
+      h-full
+      w-full
+      object-cover
+    "
         />
       </motion.div>
 
@@ -56,8 +62,8 @@ export default function EnvironmentImages() {
         "
       >
         <Image
-          src="/images/about/environment-2.jpg"
-          alt="Montessori Toys"
+          src="/images/about/children_playing.png"
+          alt="children_playing"
           fill
           className="object-cover"
         />

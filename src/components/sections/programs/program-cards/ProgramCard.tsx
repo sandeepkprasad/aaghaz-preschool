@@ -203,7 +203,7 @@ export default function ProgramCard({ item, index }: Props) {
 
       {/* Button */}
 
-      <button
+      {/* <button
         className={`
           mt-8
           w-full
@@ -220,7 +220,7 @@ export default function ProgramCard({ item, index }: Props) {
         `}
       >
         {item.button}
-      </button>
+      </button> */}
     </motion.div>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function HeroContent() {
   return (
@@ -20,7 +21,7 @@ export default function HeroContent() {
     >
       {/* Label */}
 
-      <motion.span
+      {/* <motion.span
         initial={{
           opacity: 0,
           y: 20,
@@ -43,7 +44,7 @@ export default function HeroContent() {
         "
       >
         The Heart of Learning
-      </motion.span>
+      </motion.span> */}
 
       {/* Heading */}
 
@@ -59,17 +60,16 @@ export default function HeroContent() {
         transition={{
           delay: 0.2,
         }}
-        className="
-          text-5xl
-          font-bold
-          leading-tight
-          text-slate-900
-          lg:text-7xl
-        "
+        className="flex justify-center lg:justify-start"
       >
-        Where Every Journey
-        <br />
-        <span className="italic text-orange-500">Starts with Wonder.</span>
+        <Image
+          src="/images/common/aaghaz_text.png"
+          alt="Aaghaz Preschool"
+          width={700}
+          height={180}
+          priority
+          className="h-auto w-full max-w-[650px]"
+        />
       </motion.h1>
 
       {/* Description */}

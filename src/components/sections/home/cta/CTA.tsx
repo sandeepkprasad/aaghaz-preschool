@@ -70,7 +70,6 @@ export default function CTA() {
               h-96
               w-96
               rounded-full
-              bg-orange-500/20
               blur-3xl
             "
           />

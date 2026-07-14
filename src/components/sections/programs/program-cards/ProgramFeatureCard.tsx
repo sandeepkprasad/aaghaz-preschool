@@ -137,7 +137,7 @@ export default function ProgramFeatureCard({ item }: Props) {
         </div>
       </div>
 
-      <button
+      {/* <button
         className="
           mt-8
           w-full
@@ -152,7 +152,7 @@ export default function ProgramFeatureCard({ item }: Props) {
         "
       >
         Enroll Now
-      </button>
+      </button> */}
     </motion.div>
   );
 }

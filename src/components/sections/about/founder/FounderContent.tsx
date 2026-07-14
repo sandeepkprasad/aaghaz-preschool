@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import FounderImage from "./FounderImage";
 
 export default function FounderContent() {
   return (
@@ -12,21 +13,22 @@ export default function FounderContent() {
     >
       <span
         className="
-          mb-5
+          mb-12
           block
-          text-sm
+          text-lg
           font-bold
           uppercase
           tracking-[0.35em]
           text-violet-600
+          text-center
         "
       >
         A Message from our Heart
       </span>
 
-      <h2 className="mb-8 text-5xl font-bold">Letter from Saima</h2>
+      {/* <h2 className="mb-8 text-5xl font-bold text-center">Founder's Note</h2> */}
 
-      <div
+      {/* <div
         className="
     space-y-6
     text-lg
@@ -71,10 +73,12 @@ export default function FounderContent() {
           <br />
           <strong>Aaghaz—where it all truly begins.</strong>
         </p>
-      </div>
+      </div> */}
 
-      <div className="mt-10 border-t pt-6">
-        <h4 className="text-2xl font-bold text-orange-600">Saima Parwez</h4>
+      <FounderImage />
+
+      <div className="mt-10 border-t pt-6 text-center">
+        <h4 className="text-2xl font-bold text-[#EC2129]">Saima Perwez</h4>
 
         <p className="mt-2 text-slate-500">The Founder of Aaaghaz</p>
       </div>

@@ -59,7 +59,7 @@ export default function HeroContent() {
       >
         Capturing the
         <br />
-        <span className="text-orange-600">Joy of Learning</span>
+        <span className="text-[#EC2129]">Joy of Learning</span>
       </motion.h1>
 
       {/* Description */}

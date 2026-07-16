@@ -16,18 +16,18 @@ export interface GalleryItem {
 export const gallery: GalleryItem[] = [
   {
     title: "Morning Sensorial Play",
-    category: "Classroom",
-    image: "/images/gallery/gallery-1.jpg",
+    category: "Play",
+    image: "/images/gallery/montessori_classroom.png",
     ratio: "auto",
     rotate: "left",
     icon: Heart,
   },
 
   {
-    title: "Annual Graduation Day",
-    category: "Celebrations",
-    image: "/images/gallery/gallery-2.jpg",
-    ratio: "portrait",
+    title: "Indoor Play Room",
+    category: "Play Area",
+    image: "/images/gallery/play_room.png",
+    ratio: "auto",
     rotate: "right",
     icon: Sparkles,
   },
@@ -35,31 +35,31 @@ export const gallery: GalleryItem[] = [
   {
     title: "Little Artists Workshop",
     category: "Activities",
-    image: "/images/gallery/gallery-3.jpg",
+    image: "/images/gallery/children_playing.png",
     ratio: "square",
   },
 
   {
     title: "Summer Outdoor Exploration",
     category: "Events",
-    image: "/images/gallery/gallery-4.jpg",
-    ratio: "video",
+    image: "/images/gallery/playing.png",
+    ratio: "auto",
     rotate: "left",
   },
 
   {
-    title: "Science & Nature Discovery",
-    category: "Classroom",
-    image: "/images/gallery/gallery-5.jpg",
+    title: "Happy Little Learner",
+    category: "Student Life",
+    image: "/images/gallery/child_closeup.png",
     ratio: "portrait",
     rotate: "right",
     icon: Search,
   },
 
   {
-    title: "Monthly Birthday Festivities",
-    category: "Celebrations",
-    image: "/images/gallery/gallery-6.jpg",
+    title: "Creative Learning Activities",
+    category: "Classroom Activities",
+    image: "/images/gallery/children_activity.png",
     ratio: "square",
   },
 ];

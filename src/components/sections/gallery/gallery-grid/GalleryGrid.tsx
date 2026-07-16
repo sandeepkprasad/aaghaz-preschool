@@ -111,7 +111,7 @@ export default function GalleryGrid() {
 
         {/* Bottom Scrapbook */}
 
-        <GalleryPolaroid />
+        {/*  <GalleryPolaroid /> */}
       </div>
     </section>
   );

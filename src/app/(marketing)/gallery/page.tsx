@@ -1,15 +1,15 @@
 import Hero from "@/components/sections/gallery/hero";
-import GalleryFilter from "@/components/sections/gallery/gallery-filter";
+//import GalleryFilter from "@/components/sections/gallery/gallery-filter";
 import GalleryGrid from "@/components/sections/gallery/gallery-grid";
-import GalleryCTA from "@/components/sections/gallery/final-cta";
+//import GalleryCTA from "@/components/sections/gallery/final-cta";
 
 export default function GalleryPage() {
   return (
     <>
       <Hero />
-      <GalleryFilter />
+      {/* <GalleryFilter /> */}
       <GalleryGrid />
-      <GalleryCTA />
+      {/* <GalleryCTA /> */}
     </>
   );
 }

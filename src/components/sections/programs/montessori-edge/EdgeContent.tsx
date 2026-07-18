@@ -24,7 +24,7 @@ export default function EdgeContent() {
       }}
       className="space-y-10"
     >
-      <h2 className="text-5xl font-bold text-emerald-600">
+      <h2 className="text-5xl font-bold text-[#EC2129]">
         The Montessori Edge
       </h2>
 

@@ -41,7 +41,7 @@ export default function HeroButtons() {
           items-center
           gap-2
           rounded-full
-          bg-orange-600
+          bg-[#EC2129]
           px-8
           py-4
           font-semibold
@@ -68,12 +68,12 @@ export default function HeroButtons() {
           gap-2
           rounded-full
           border-2
-          border-orange-300
+          border-[#EC2129]/30
           bg-white
           px-8
           py-4
           font-semibold
-          text-orange-600
+          text-[#EC2129]
           transition-all
           hover:bg-orange-50
         "

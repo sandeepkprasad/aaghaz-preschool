@@ -12,7 +12,7 @@ export default function AdmissionProcess() {
       className="
         relative
         overflow-hidden
-        bg-orange-50
+        bg-[#EC2129]/5
         px-6
         py-28
       "
@@ -35,7 +35,7 @@ export default function AdmissionProcess() {
           h-[420px]
           w-[420px]
           rounded-full
-          bg-orange-200/30
+          bg-[#EC2129]/30
           blur-[120px]
         "
       />
@@ -79,7 +79,7 @@ export default function AdmissionProcess() {
           md:block
         "
       >
-        <div className="rounded-full bg-orange-100 p-4 shadow-xl">🌼</div>
+        <div className="rounded-full bg-[#EC2129]/10 p-4 shadow-xl">🌼</div>
       </motion.div>
 
       {/* Floating Leaf */}
@@ -142,7 +142,7 @@ export default function AdmissionProcess() {
               h-48
               w-48
               rounded-full
-              bg-orange-200/30
+              bg-[#EC2129]/30
               blur-3xl
             "
           />
@@ -184,7 +184,7 @@ export default function AdmissionProcess() {
               shadow-2xl
             "
           >
-            <h3 className="text-5xl font-bold text-orange-600">98%</h3>
+            <h3 className="text-5xl font-bold text-[#EC2129]">100%</h3>
 
             <p className="mt-2 text-sm text-slate-500">
               Parent Satisfaction

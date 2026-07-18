@@ -12,8 +12,8 @@ export default function EdgeFeature({ feature, index }: Props) {
 
   const theme = {
     orange: {
-      bg: "bg-orange-100",
-      text: "text-orange-600",
+      bg: "bg-violet-100",
+      text: "text-violet-600",
     },
 
     emerald: {
@@ -22,8 +22,8 @@ export default function EdgeFeature({ feature, index }: Props) {
     },
 
     violet: {
-      bg: "bg-violet-100",
-      text: "text-violet-600",
+      bg: "bg-[#EC2129]/10",
+      text: "text-[#EC2129]",
     },
   };
 

@@ -2,10 +2,10 @@ import { DoorOpen, Camera, Trees, Puzzle } from "lucide-react";
 
 export const facilities = [
   {
-    title: "Sun-Drenched Classrooms",
+    title: "Montessori Learning Environment",
     description:
-      "Designed with low-set windows and non-toxic materials for a healthy learning environment.",
-    image: "/images/facilities/classroom.jpg",
+      "Thoughtfully designed spaces filled with interactive materials that encourage independent learning, creativity, and joyful exploration.",
+    image: "/images/gallery/activity.png",
     icon: DoorOpen,
     type: "large",
   },
@@ -19,12 +19,12 @@ export const facilities = [
   },
 
   {
-    title: "Organic Play Zone",
+    title: "Indoor Play Area",
 
     description:
-      "Soft-impact flooring and wooden climbing frames designed to build motor skills naturally.",
+      "Designed for active play and joyful exploration, our indoor play area encourages movement, creativity, and meaningful interactions in a safe environment.",
 
-    image: "/images/facilities/playground.jpg",
+    image: "/images/gallery/play_room.png",
 
     icon: Trees,
 
@@ -32,16 +32,16 @@ export const facilities = [
   },
 
   {
-    title: "Montessori Lab",
+    title: "Moments of Discovery",
 
     description:
-      "Authentic Montessori materials encouraging tactile exploration, mathematical logic and sensory refinement.",
+      "From creative art and sensory exploration to collaborative play and early learning, every moment at Aaghaz is designed to spark curiosity and joyful growth.",
 
-    image: "/images/facilities/materials.jpg",
+    image: "/images/gallery/children_activity.png",
 
     icon: Puzzle,
 
-    tags: ["Sensory Brushes", "Pink Tower", "Golden Beads"],
+    tags: ["Art & Craft", "Group Learning", "Creative Exploration"],
 
     type: "lab",
   },

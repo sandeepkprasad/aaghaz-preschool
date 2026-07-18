@@ -22,7 +22,7 @@ export default function FinalCTA() {
         viewport={{
           once: true,
         }}
-        className="relative mx-auto max-w-3xl rounded-[50px] bg-white px-8 py-16 text-center"
+        className="relative mx-auto max-w-3xl rounded-[50px] bg-[#DAF1F9] px-8 py-16 text-center"
       >
         {/* Decorative Blob */}
 
@@ -73,7 +73,7 @@ export default function FinalCTA() {
               text-4xl
               font-bold
               leading-tight
-              text-orange-600
+              text-[#EC2129]
               lg:text-5xl
             "
           >

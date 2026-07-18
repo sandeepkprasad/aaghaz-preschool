@@ -1,4 +1,4 @@
-import Hero from "@/components/sections/programs/hero";
+//import Hero from "@/components/sections/programs/hero";
 import ProgramCards from "@/components/sections/programs/program-cards";
 import MontessoriEdge from "@/components/sections/programs/montessori-edge";
 import CTA from "@/components/sections/programs/cta";

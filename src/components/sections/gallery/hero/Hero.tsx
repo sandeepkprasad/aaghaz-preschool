@@ -7,7 +7,7 @@ import HeroContent from "./HeroContent";
 
 export default function Hero() {
   return (
-    <header className="relative overflow-hidden px-6 pb-16 pt-32 lg:px-12">
+    <header className="relative overflow-hidden bg-[#DAF1F9] px-6 pb-16 pt-32 lg:px-12">
       {/* Floating Leaf */}
 
       <motion.div

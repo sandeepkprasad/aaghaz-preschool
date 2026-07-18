@@ -37,7 +37,7 @@ export default function ProgramFeatureCard({ item }: Props) {
         overflow-hidden
         rounded-[40px]
         border-2
-        border-orange-200
+        border-[#EC2129]/20
         bg-white
         p-8
         shadow-xl
@@ -71,7 +71,7 @@ export default function ProgramFeatureCard({ item }: Props) {
           right-8
           top-8
           rounded-full
-          bg-orange-600
+          bg-[#EC2129]
           px-3
           py-1
           text-[10px]
@@ -98,16 +98,16 @@ export default function ProgramFeatureCard({ item }: Props) {
           bg-orange-100
         "
       >
-        <Icon className="h-8 w-8 text-orange-600" />
+        <Icon className="h-8 w-8 text-[#EC2129]" />
       </div>
 
-      <h3 className="mb-2 text-2xl font-bold text-orange-700">{item.title}</h3>
+      <h3 className="mb-2 text-2xl font-bold text-[#EC2129]">{item.title}</h3>
 
       <p className="mb-6 text-slate-500">{item.age}</p>
 
       <div className="space-y-5">
         <div>
-          <h4 className="mb-2 text-sm font-bold uppercase text-orange-600">
+          <h4 className="mb-2 text-sm font-bold uppercase text-[#EC2129]">
             {item.heading}
           </h4>
 
@@ -115,7 +115,7 @@ export default function ProgramFeatureCard({ item }: Props) {
         </div>
 
         <div>
-          <h4 className="mb-3 text-sm font-bold uppercase text-orange-600">
+          <h4 className="mb-3 text-sm font-bold uppercase text-[#EC2129]">
             {item.listTitle}
           </h4>
 
@@ -126,7 +126,7 @@ export default function ProgramFeatureCard({ item }: Props) {
                   className="
                     h-5
                     w-5
-                    text-orange-600
+                    text-[#EC2129]
                   "
                 />
 

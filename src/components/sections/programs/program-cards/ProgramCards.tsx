@@ -26,7 +26,7 @@ export default function ProgramCards() {
     opacity-10
   "
       >
-        <Leaf className="h-28 w-28 text-orange-500" />
+        <Leaf className="h-28 w-28 text-[#EC2129]" />
       </motion.div>
 
       <motion.div
@@ -59,7 +59,7 @@ export default function ProgramCards() {
                   rounded-[40px]
                   border-2
                   border-dashed
-                  border-orange-300
+                  border-[#EC2129]/30
                   p-12
                   text-center
                   text-slate-400

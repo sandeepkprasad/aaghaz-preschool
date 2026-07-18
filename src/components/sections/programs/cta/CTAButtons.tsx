@@ -14,24 +14,24 @@ export default function CTAButtons() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.98 }}
         className="
-          inline-flex
-          items-center
-          justify-center
-          gap-2
           rounded-full
-          bg-white
+          border-2
+          border-white/40
           px-10
           py-4
+          text-lg
           font-semibold
-          text-[#EC2129]
-          shadow-xl
+          text-white
+          backdrop-blur
+          transition-all
+          hover:bg-white/10
         "
       >
-        <CalendarDays size={20} />
-        Book a Tour
+       {/*  <CalendarDays size={20} /> */}
+        Connect With Us
       </MotionLink>
 
-      <MotionLink
+      {/* <MotionLink
         href="/admissions"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.98 }}
@@ -52,7 +52,7 @@ export default function CTAButtons() {
       >
         <GraduationCap size={20} />
         Online Admission
-      </MotionLink>
+      </MotionLink> */}
     </div>
   );
 }

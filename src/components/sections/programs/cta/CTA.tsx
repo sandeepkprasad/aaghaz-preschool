@@ -27,7 +27,7 @@ export default function CTA() {
             relative
             overflow-hidden
             rounded-[60px]
-            bg-orange-600
+            bg-[#0F587F]
             px-8
             py-16
             text-center
@@ -61,7 +61,7 @@ export default function CTA() {
             "
           />
 
-          <div
+          {/** <div
             className="
               absolute
               -bottom-24
@@ -72,7 +72,7 @@ export default function CTA() {
               bg-orange-300/20
               blur-3xl
             "
-          />
+          /> */}
 
           <div className="relative z-10 mx-auto max-w-3xl">
             <motion.h2

@@ -21,11 +21,11 @@ export default function EligibilityCard({ item, index }: Props) {
     },
 
     orange: {
-      iconBg: "bg-orange-100",
-      icon: "text-orange-600",
-      title: "text-orange-600",
-      check: "text-orange-500",
-      border: "border-orange-200",
+      iconBg: "bg-[#EC2129]/10",
+      icon: "text-[#EC2129]",
+      title: "text-[#EC2129]",
+      check: "text-[#EC2129]/90",
+      border: "border-[#EC2129]/20",
     },
 
     violet: {

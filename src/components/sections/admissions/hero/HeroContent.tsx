@@ -43,7 +43,7 @@ export default function HeroContent() {
           backdrop-blur-md
         "
       >
-        Limited Seats Available for 2024–25
+        Limited Seats Available for 2026–27
       </motion.div>
 
       {/* Heading */}
@@ -72,7 +72,7 @@ export default function HeroContent() {
       >
         Begin Your Child's
         <br />
-        <span className="text-orange-600">Journey of Discovery</span>
+        <span className="text-[#EC2129]">Journey of Discovery</span>
       </motion.h1>
 
       {/* Description */}

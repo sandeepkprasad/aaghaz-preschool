@@ -7,7 +7,7 @@ import HeroContent from "./HeroContent";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-6 py-28 lg:px-12">
+    <section className="relative overflow-hidden bg-[#DAF1F9] px-6 py-28 lg:px-12">
       {/* Decorative Doodle */}
 
       <motion.div
@@ -32,7 +32,7 @@ export default function Hero() {
           className="
             h-32
             w-32
-            text-orange-500
+            text-[#EC2129]
           "
           strokeWidth={1}
         />

@@ -35,7 +35,7 @@ export default function FacilityInfoCard({ item }: Props) {
         justify-between
         overflow-hidden
         rounded-[40px]
-        bg-orange-600
+        bg-[#EC2129]
         p-8
         text-white
         scrapbook-right

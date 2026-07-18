@@ -19,21 +19,20 @@ export default function CTAButtons() {
           justify-center
           gap-2
           rounded-full
-          bg-orange-600
+          bg-[#EC2129]
           px-10
           py-4
           font-semibold
           text-white
           shadow-xl
           transition-all
-          hover:bg-orange-700
         "
       >
-        Book Private Tour
+        Connect With Us
         <ArrowRight size={18} />
       </MotionLink>
 
-      <MotionLink
+      {/* <MotionLink
         href="/brochure.pdf"
         target="_blank"
         whileHover={{ scale: 1.05 }}
@@ -56,7 +55,7 @@ export default function CTAButtons() {
       >
         <Download size={18} />
         Download Brochure
-      </MotionLink>
+      </MotionLink> */}
     </div>
   );
 }

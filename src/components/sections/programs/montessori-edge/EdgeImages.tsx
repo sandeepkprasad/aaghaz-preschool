@@ -63,8 +63,8 @@ export default function EdgeImages() {
           "
         >
           <Image
-            src="/images/programs/outdoor-activity.jpg"
-            alt="Outdoor Activity"
+            src="/images/gallery/playing.png"
+            alt="playing"
             fill
             className="
               object-cover
@@ -106,8 +106,8 @@ export default function EdgeImages() {
           "
         >
           <Image
-            src="/images/programs/learning-toys.jpg"
-            alt="Learning Toys"
+            src="/images/gallery/classroom_activity.png"
+            alt="classroom_activity"
             fill
             className="
               object-cover
@@ -126,7 +126,7 @@ export default function EdgeImages() {
             duration: 6,
             repeat: Infinity,
           }}
-          className="absolute -left-6 top-16 rounded-full bg-orange-100 p-4 shadow-xl"
+          className="absolute -left-6 top-16 rounded-full bg-[#EC2129]/10 p-4 shadow-xl"
         >
           🌱
         </motion.div>

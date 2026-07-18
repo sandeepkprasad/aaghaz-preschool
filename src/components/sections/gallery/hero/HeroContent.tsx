@@ -7,7 +7,7 @@ export default function HeroContent() {
     <div className="relative z-10 text-center">
       {/* Badge */}
 
-      <motion.div
+      {/* <motion.div
         initial={{
           opacity: 0,
           y: 20,
@@ -32,7 +32,7 @@ export default function HeroContent() {
         "
       >
         Our Visual Story
-      </motion.div>
+      </motion.div> */}
 
       {/* Heading */}
 

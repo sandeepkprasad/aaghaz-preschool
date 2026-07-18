@@ -11,7 +11,7 @@ export default function ProgramHeader() {
       viewport={{ once: true }}
       className="mb-16 text-center"
     >
-      <h2 className="text-5xl font-bold text-orange-600">
+      <h2 className="text-5xl font-bold text-[#EC2129]">
         Discover Our Programs
       </h2>
 

@@ -9,7 +9,7 @@ type Props = {
 
 export default function ProcessStep({ item, index }: Props) {
   const colors = {
-    orange: "bg-orange-500 text-white",
+    orange: "bg-[#EC2129] text-white",
     emerald: "bg-emerald-500 text-white",
     violet: "bg-violet-500 text-white",
     amber: "bg-amber-400 text-slate-900",
@@ -94,7 +94,7 @@ export default function ProcessStep({ item, index }: Props) {
             text-slate-900
             transition-colors
             duration-300
-            group-hover:text-orange-600
+            group-hover:text-[#EC2129]
           "
         >
           {item.title}

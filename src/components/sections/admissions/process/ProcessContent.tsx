@@ -24,7 +24,7 @@ export default function ProcessContent() {
           mb-10
           text-5xl
           font-bold
-          text-orange-600
+          text-[#EC2129]
         "
       >
         Four Steps to Success

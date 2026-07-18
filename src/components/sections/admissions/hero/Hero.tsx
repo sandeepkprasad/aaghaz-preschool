@@ -11,7 +11,7 @@ export default function Hero() {
       className="
         relative
         overflow-hidden
-        bg-orange-100
+        bg-[#DAF1F9]
         px-6
         py-16
         lg:px-12

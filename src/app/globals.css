@@ -43,9 +43,9 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
-  --font-sans: "Nunito Sans", Arial, sans-serif;
+  --font-sans: "Fredoka", sans-serif;
 
-  --font-heading: "Baloo 2", cursive;
+  --font-heading: "Fredoka", sans-serif;
 
   --color-sidebar-ring: var(--sidebar-ring);
 
@@ -223,7 +223,7 @@ html {
 }
 
 .font-headline {
-  font-family: "Baloo 2", cursive;
+  font-family: var(--font-heading);
 }
 
 .font-body {

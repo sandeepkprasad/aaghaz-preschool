@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 import HeroContent from "./HeroContent";
 import FloatingCards from "./FloatingCards";
 

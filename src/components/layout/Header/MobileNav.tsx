@@ -12,6 +12,8 @@ import {
   SheetClose,
 } from "@/components/ui/Sheet";
 
+import Logo from "./Logo";
+
 import { NAVIGATION } from "@/constants/navigation";
 import EnrollButton from "./EnrollButton";
 
@@ -37,11 +39,9 @@ export default function MobileNav() {
           className="flex w-[320px] flex-col justify-between p-0"
         >
           <div className="p-6">
-            <h2 className="text-2xl font-bold text-orange-600">Aaghaz</h2>
+            <Logo />
 
-            <p className="mb-8 text-sm text-slate-500">Preschool</p>
-
-            <nav className="space-y-4">
+            <nav className="space-y-4 mt-4">
               {NAVIGATION.map((item, index) => (
                 <SheetClose asChild key={item.href}>
                   <MotionLink
@@ -59,7 +59,7 @@ export default function MobileNav() {
                     }}
                     className={`block rounded-lg px-3 py-3 text-lg font-semibold transition-all ${
                       pathname === item.href
-                        ? "bg-orange-50 text-orange-600"
+                        ? "bg-[#EC2129]/5 text-[#EC2129]"
                         : "text-slate-700 hover:bg-slate-100"
                     }`}
                   >
@@ -80,18 +80,23 @@ export default function MobileNav() {
 
           <div className="border-t bg-slate-50 p-6">
             <div className="space-y-4 text-sm text-slate-600">
-              <div className="flex items-center gap-3">
+              <a
+                href="https://wa.me/919667865010"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 transition-colors hover:text-[#EC2129]"
+              >
                 <Phone size={18} />
-                <span>9667865010</span>
-              </div>
+                <span>+91 96678 65010</span>
+              </a>
 
               <div className="flex items-center gap-3">
                 <MapPin size={18} />
-                <span>Patna, Bihar</span>
+                <span>F3, Ground Floor, Jogabai Extension</span>
               </div>
             </div>
 
-            <div className="mt-6 flex gap-4">
+            {/* <div className="mt-6 flex gap-4">
               <a
                 href="#"
                 className="rounded-full border p-2 transition hover:bg-orange-500 hover:text-white"
@@ -105,7 +110,7 @@ export default function MobileNav() {
               >
                 <Mail size={18} />
               </a>
-            </div>
+            </div> */}
           </div>
         </SheetContent>
       </Sheet>

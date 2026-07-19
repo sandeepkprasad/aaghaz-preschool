@@ -18,8 +18,8 @@ export default function HeroButtons() {
         y: 0,
       }}
       transition={{
-        delay: .4,
-        duration: .6,
+        delay: 0.4,
+        duration: 0.6,
       }}
       className="
         flex
@@ -29,12 +29,12 @@ export default function HeroButtons() {
       "
     >
       <MotionLink
-        href="#fee-enquiry"
+        href="/contact"
         whileHover={{
           scale: 1.05,
         }}
         whileTap={{
-          scale: .97,
+          scale: 0.97,
         }}
         className="
           inline-flex
@@ -49,8 +49,7 @@ export default function HeroButtons() {
           shadow-xl
         "
       >
-        Fee Enquiry
-
+        Connect With Us
         <ArrowRight size={18} />
       </MotionLink>
 
@@ -60,7 +59,7 @@ export default function HeroButtons() {
           scale: 1.05,
         }}
         whileTap={{
-          scale: .97,
+          scale: 0.97,
         }}
         className="
           inline-flex
@@ -79,7 +78,6 @@ export default function HeroButtons() {
         "
       >
         <FileText size={18} />
-
         View Process
       </MotionLink>
     </motion.div>

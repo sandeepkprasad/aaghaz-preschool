@@ -10,7 +10,7 @@ export const floatingCards = [
 
   {
     icon: PartyPopper,
-    color: "text-orange-500",
+    color: "text-[#EC2129]",
     rotate: "right",
     position: "right-20 top-40",
   },

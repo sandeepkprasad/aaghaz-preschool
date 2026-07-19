@@ -157,7 +157,7 @@ export default function AdmissionProcess() {
             "
           >
             <Image
-              src="/images/admissions/process.jpg"
+              src="/images/admissions/admission_process.png"
               alt="Admission Process"
               fill
               className="object-cover"

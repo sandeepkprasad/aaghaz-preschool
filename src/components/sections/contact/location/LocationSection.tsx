@@ -19,7 +19,7 @@ export default function LocationSection() {
     >
       {/* Top Curve */}
 
-      <div className="absolute top-0 left-0 z-30 w-full rotate-180 overflow-hidden leading-none">
+      {/* <div className="absolute top-0 left-0 z-30 w-full rotate-180 overflow-hidden leading-none">
         <svg
           viewBox="0 0 1200 120"
           preserveAspectRatio="none"
@@ -35,7 +35,7 @@ export default function LocationSection() {
             fill="white"
           />
         </svg>
-      </div>
+      </div> */}
 
       <div
         className="

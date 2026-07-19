@@ -30,7 +30,7 @@ export default function AboutImage() {
           h-[430px]
           w-[430px]
           rounded-[45%_55%_60%_40%/45%_35%_65%_55%]
-          bg-orange-100
+          bg-[#EC2129]/10
           blur-md
         "
       />
@@ -46,7 +46,7 @@ export default function AboutImage() {
           type: "spring",
           stiffness: 250,
         }}
-        className="relative h-[420px] w-[420px]"
+        className="relative h-[280px] w-[280px] sm:h-[340px] sm:w-[340px] md:h-[380px] md:w-[380px] lg:h-[420px] lg:w-[420px]"
       >
         <Image
           src="/images/home/about.png"

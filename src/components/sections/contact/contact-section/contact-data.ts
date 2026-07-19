@@ -1,6 +1,10 @@
-import { Phone, MapPin, Trophy, Camera, Mail } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa6";
 
 import type { LucideIcon } from "lucide-react";
+import type { IconType } from "react-icons";
+
+export type AppIcon = LucideIcon | IconType;
 
 export type ContactColor = "orange" | "emerald";
 
@@ -20,7 +24,7 @@ export interface ContactCardItem {
 }
 
 export interface SocialLinkItem {
-  icon: LucideIcon;
+  icon: AppIcon;
 
   href: string;
 }
@@ -59,20 +63,15 @@ export const contactCards: ContactCardItem[] = [
 
 export const socialLinks: SocialLinkItem[] = [
   {
-    icon: Trophy,
-
-    href: "#",
+    icon: FaWhatsapp,
+    href: "https://wa.me/919667865010",
   },
-
   {
-    icon: Camera,
-
-    href: "#",
+    icon: FaInstagram,
+    href: "https://www.instagram.com/aaghaz_preschool/",
   },
-
   {
     icon: Mail,
-
-    href: "#",
+    href: "mailto:contact@aaghaz.co.in",
   },
 ];

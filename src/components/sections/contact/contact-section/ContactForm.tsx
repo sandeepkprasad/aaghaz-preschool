@@ -51,8 +51,8 @@ export default function ContactForm() {
       className="
         rounded-[40px]
         border-2
-        border-orange-100
-        bg-orange-50
+        border-[#EC2129]/10
+        bg-[#EC2129]/5
         p-8
         md:p-12
       "
@@ -62,7 +62,7 @@ export default function ContactForm() {
           mb-8
           text-3xl
           font-bold
-          text-orange-600
+          text-[#EC2129]
         "
       >
         Send us a message
@@ -159,7 +159,7 @@ export default function ContactForm() {
           disabled={loading}
           className="
             rounded-full
-            bg-orange-600
+            bg-[#EC2129]
             px-10
             py-4
             font-semibold

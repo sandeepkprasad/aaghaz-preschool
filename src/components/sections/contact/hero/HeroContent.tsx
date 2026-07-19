@@ -40,7 +40,7 @@ export default function HeroContent() {
     mb-6
     text-5xl
     font-bold
-    text-orange-600
+    text-[#EC2129]
     lg:text-7xl
   "
       >

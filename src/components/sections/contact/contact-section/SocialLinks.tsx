@@ -10,8 +10,8 @@ export default function SocialLinks() {
       className="
         rounded-3xl
         border
-        border-orange-100
-        bg-orange-50
+        border-[#EC2129]/10
+        bg-[#EC2129]/5
         p-8
       "
     >
@@ -20,7 +20,7 @@ export default function SocialLinks() {
           mb-6
           text-2xl
           font-bold
-          text-orange-600
+          text-[#EC2129]
         "
       >
         Social Nest
@@ -44,7 +44,7 @@ export default function SocialLinks() {
                   bg-white
                   shadow-md
                   transition-all
-                  hover:bg-orange-500
+                  hover:bg-[#EC2129]
                   hover:text-white
                 "
             >

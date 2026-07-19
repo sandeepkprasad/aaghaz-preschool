@@ -10,6 +10,7 @@ export default function ContactHero() {
       className="
     relative
     overflow-hidden
+    bg-[#DAF1F9]
     px-margin-mobile
     md:px-margin-desktop
     pt-36
@@ -20,7 +21,7 @@ export default function ContactHero() {
     >
       {/* Background Blob */}
 
-      <motion.div
+      {/* <motion.div
         animate={{
           scale: [1, 1.08, 1],
           x: [0, 20, 0],
@@ -62,7 +63,7 @@ export default function ContactHero() {
     bg-emerald-100/50
     blur-[120px]
   "
-      />
+      /> */}
 
       <HeroContent />
 

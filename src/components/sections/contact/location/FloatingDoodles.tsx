@@ -61,7 +61,7 @@ export default function FloatingDoodles() {
           className="
             h-24
             w-24
-            text-orange-300/40
+            text-[#EC2129]/20
           "
         />
       </motion.div>

@@ -38,7 +38,7 @@ export default function MapOverlay() {
         rotate-2
         rounded-[32px]
         border-4
-        border-orange-200
+        border-[#EC2129]/20
         bg-white
         p-8
         shadow-[0_30px_70px_rgba(0,0,0,.18)]
@@ -78,7 +78,7 @@ export default function MapOverlay() {
             className="
               h-8
               w-8
-              text-orange-600
+              text-[#EC2129]
             "
           />
         </div>
@@ -119,7 +119,7 @@ export default function MapOverlay() {
           justify-center
           gap-3
           rounded-2xl
-          bg-orange-500
+          bg-[#EC2129]
           px-6
           py-4
           font-semibold
@@ -128,7 +128,7 @@ export default function MapOverlay() {
           transition-all
           duration-300
           hover:-translate-y-1
-          hover:bg-orange-600
+          hover:bg-[#EC2129]
           hover:shadow-xl
           active:translate-y-0
         "

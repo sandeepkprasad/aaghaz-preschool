@@ -12,8 +12,8 @@ export default function ContactCard({ item }: Props) {
 
   const colors = {
     orange: {
-      bg: "bg-orange-100",
-      text: "text-orange-600",
+      bg: "bg-[#EC2129]/10",
+      text: "text-[#EC2129]",
     },
 
     emerald: {
@@ -87,7 +87,7 @@ export default function ContactCard({ item }: Props) {
                 items-center
                 gap-2
                 font-semibold
-                text-orange-600
+                text-[#EC2129]
                 hover:underline
               "
             >

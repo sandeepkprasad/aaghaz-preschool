@@ -9,7 +9,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import FormField from "./FormField";
 import ProgramSelect from "./ProgramSelect";
 import SubmitButton from "./SubmitButton";
-import { submitFeeEnquiry } from "@/services/google-sheet.service";
+import { submitFormData } from "@/services/google-sheet.service";
 
 import { feeSchema, FeeSchema } from "./schema";
 
@@ -27,7 +27,7 @@ export default function FeeForm() {
   const onSubmit = async (data: FeeSchema) => {
     setLoading(true);
 
-    await submitFeeEnquiry({
+    await submitFormData({
       ...data,
 
       source: "Admissions Page",

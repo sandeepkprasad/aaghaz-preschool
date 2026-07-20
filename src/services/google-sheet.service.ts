@@ -1,4 +1,4 @@
-export const submitFeeEnquiry = async (payload: any) => {
+export const submitFormData = async (payload: any) => {
   const response = await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT!, {
     method: "POST",
     headers: {

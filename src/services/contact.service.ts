@@ -1,7 +1,7 @@
-import { submitFeeEnquiry } from "@/services/google-sheet.service";
+import { submitFormData } from "@/services/google-sheet.service";
 
 export const submitContactForm = (data: any) =>
-  submitFeeEnquiry({
+  submitFormData({
     ...data,
     source: "Contact Page",
   });

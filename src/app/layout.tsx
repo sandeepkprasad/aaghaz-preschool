@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from "sonner";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -33,7 +34,16 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+
+        <Toaster
+          position="bottom-center"
+          richColors
+          duration={3000}
+          closeButton={false}
+        />
+      </body>
     </html>
   );
 }

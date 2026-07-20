@@ -36,7 +36,9 @@ export default function ContactForm() {
 
       await submitContactForm(data);
 
-      toast.success("Message sent successfully.");
+      toast.success(
+        "Thank you for your interest in Aaghaz Preschool! We'll contact you shortly.",
+      );
 
       reset();
     } catch {

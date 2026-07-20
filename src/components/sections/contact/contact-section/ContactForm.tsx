@@ -127,7 +127,7 @@ export default function ContactForm() {
 
                   ${
                     selectedAge === age
-                      ? "border-orange-500 bg-orange-500 text-white"
+                      ? "border-[#EC2129] bg-[#EC2129] text-white"
                       : "border-slate-300 bg-white"
                   }
                 `}

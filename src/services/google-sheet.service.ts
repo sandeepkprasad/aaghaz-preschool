@@ -1,12 +1,10 @@
 export const submitFeeEnquiry = async (payload: any) => {
   const response = await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT!, {
     method: "POST",
-
-    body: JSON.stringify(payload),
-
     headers: {
-      "Content-Type": "application/json",
+      "Content-Type": "text/plain;charset=UTF-8",
     },
+    body: JSON.stringify(payload),
   });
 
   return response.json();

@@ -9,7 +9,7 @@ export const contactSchema = z.object({
 
   ageGroup: z.string().min(1, "Please select age group"),
 
-  message: z.string().min(10, "Please enter your message"),
+  message: z.string().optional(),
 });
 
 export type ContactSchema = z.infer<typeof contactSchema>;

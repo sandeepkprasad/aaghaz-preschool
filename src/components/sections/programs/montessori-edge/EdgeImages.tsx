@@ -63,7 +63,7 @@ export default function EdgeImages() {
           "
         >
           <Image
-            src="/images/gallery/playing.png"
+            src="/images/common/classroom_activity_1.png"
             alt="playing"
             fill
             className="
@@ -106,7 +106,7 @@ export default function EdgeImages() {
           "
         >
           <Image
-            src="/images/gallery/classroom_activity.png"
+            src="/images/common/classroom_activity_3.png"
             alt="classroom_activity"
             fill
             className="

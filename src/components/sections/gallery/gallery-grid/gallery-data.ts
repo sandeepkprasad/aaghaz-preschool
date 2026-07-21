@@ -59,7 +59,7 @@ export const gallery: GalleryItem[] = [
   {
     title: "Creative Learning Activities",
     category: "Classroom Activities",
-    image: "/images/gallery/children_activity.png",
+    image: "/images/common/classroom_activity_4.png",
     ratio: "square",
   },
 ];

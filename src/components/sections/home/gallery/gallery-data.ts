@@ -10,7 +10,7 @@ export const galleryImages = [
     alt: "Classroom Activity",
   },
   {
-    image: "/images/gallery/learning.png",
+    image: "/images/common/classroom_activity_1.png",
     rotation: "",
     alt: "Learning",
   },

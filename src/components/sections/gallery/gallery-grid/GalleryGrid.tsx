@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import GalleryCard from "./GalleryCard";
-import GalleryPolaroid from "./GalleryPolaroid";
+//import GalleryPolaroid from "./GalleryPolaroid";
 import { gallery } from "./gallery-data";
 
 export default function GalleryGrid() {

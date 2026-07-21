@@ -28,7 +28,7 @@ export default function HeroImages() {
           -translate-x-1/2
           -translate-y-1/2
           rounded-[45%_55%_60%_40%/45%_35%_65%_55%]
-          bg-orange-100
+          bg-[#EC2129]/20
           blur-md
         "
       />
@@ -120,7 +120,7 @@ export default function HeroImages() {
           shadow-xl
         "
       >
-        <Flower2 className="h-10 w-10 text-orange-500" />
+        <Flower2 className="h-10 w-10 text-[#EC2129]" />
       </motion.div>
 
       {/* Floating Leaf */}

@@ -62,7 +62,7 @@ export default function EnvironmentImages() {
         "
       >
         <Image
-          src="/images/about/children_playing.png"
+          src="/images/common/classroom_activity_3.png"
           alt="children_playing"
           fill
           className="object-cover"
